@@ -1,0 +1,451 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.imagen{
+    cursor: pointer;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.contentCiudades {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    background-color: #2E2F38;
+}
+
+#pall {
+    font-size: 30px;
+}
+
+.contentRutas {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    background-color: #2E2F38;
+}
+
+.contentPunto {
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    background-color: #2E2F38;
+}
+
+.contentUsuario {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    background-color: #2E2F38;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background: linear-gradient(to right, #ee5a6f, #f29263)
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#perfil {
+    width: 100%;
+    background-color: #2E2F38;
+}
+
+.padding {
+    padding: 3rem !important
+}
+
+.user-card-full {
+    overflow: hidden
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    border: none;
+    margin-bottom: 30px
+}
+
+.m-r-0 {
+    margin-right: 0px
+}
+
+.m-l-0 {
+    margin-left: 0px
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
+}
+
+.bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right, #ee5a6f, #f29263)
+}
+
+.user-profile {
+    padding: 20px 0
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-25 {
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+h6 {
+    font-size: 14px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-b-25 {
+    cursor: pointer;
+}
+.div2{
+    clear:both;
+}
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-muted {
+    color: #919aa3 !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.user-card-full .social-link li {
+    display: inline-block
+}
+
+.user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+.file{
+    visibility: hidden;
+}
+form,span {
+    margin:0;
+    padding:0; 
+}
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#2E2F38;
+    width:100%;
+    border:1px solid #919aa3; }
+  
+#loginform { padding-top:18px; }
+  
+#loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    background:#919aa3;
+    height:40%;
+    width:80%;
+    border:1px solid black;
+    overflow:auto; }
+
+#chatboxmsg{
+    margin: auto;
+    background:#919aa3;
+    height:80%;
+    width:80%;
+}
+#submitmsg{
+    background-color:#919aa3;
+    color:white;
+    margin-left:2%;
+}
+#usermsg {
+    width:100%;
+    margin: auto;
+    border:1px solid black; 
+}
+#message{
+    width:100%;
+}
+input:focus{
+    border-image-source: linear-gradient(to right, #ee5a6f, #f29263);
+    border-width: 1pt;
+    border-image-slice: 1;
+    outline:none !important;
+}
+#usermsg:focus{
+    border-image-source: linear-gradient(to right, #ee5a6f, #f29263);
+    border-width: 1pt;
+    border-image-slice: 1;
+}
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+
+  
+.welcome { float:left;color:#919aa3; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+#exit{
+    text-decoration: none;
+    color:#919aa3;
+}
+
+#circulo{
+    font-size:50px;
+    left:5px;
+  }
+
+#fondo{
+    background-color: rgb(40, 44, 52);
+    width: 100%;
+    height: 100%;
+    border: double;
+}
+
+#cuadrado_perfil{
+    width: 100%;
+    background-color: rgb(108, 110, 114);
+    border:double;
+}
+
+#cuadrado_datos{
+    width: 80%;
+    margin: auto;
+    background-color: green;
+}
+
+#global {
+	height: 70vh;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #bdbaba;
+	overflow-y: scroll;
+}
+#mensajes {
+    background: #bdbaba;
+	height: auto;
+}
+.texto {
+	padding:4px;
+	background:#fff;
+}
+.chat{
+    position: relative;
+}
+#chat{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 44, 52);
+    border: double;
+}
+.espacioChat{
+    height: 2vh;
+}
+.BotonChat{
+    background-color: rgb(40, 44, 52);
+    height: 5vh;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid;
+}
+
+.BotonChat:hover {
+    background-color: rgb(108, 110, 114);
+}
+.espacioPerfil{
+    height: 5%;
+    width:100%;
+}
+.infoPerfil{
+    height: 35%;
+    width:100%;
+    background-color: rgb(108, 110, 114);
+}
+.botonPerfil{
+    height: 10%;
+    width:100%;
+    background-color: rgb(108, 110, 114);
+    border: double;
+}
+
+.cuadroPerfilInfo{
+    height:100%;
+    width:100%;
+}
+
+.imagenCol{
+    height: 40%;
+}
+.nombreCol{
+    height: 40%;
+}
+.botonCerrarSesion{
+    height: 90%;
+}
+.divBotonLogOut{
+    height:50%;
+    font-weight: bold;
+    font-size: 2.5vh;
+    text-align: center;
+}
+.divEspacioBoton{
+    height:25%;
+}
+
+.botonPerfil:hover{
+    background-color: rgb(133, 134, 134);
+    border: solid;
+}
+.muchoTexto{
+    height: 90%;
+}
+.imagen{
+    height: 100px;
+    width: 100px;
+}
+@media only screen and (max-width: 735px) {
+    .imagen {
+      height: 70px;
+      width: 70px;
+    }
+}

@@ -1,0 +1,213 @@
+.tabla_panel{
+    width: 100%;
+}
+
+#menu_derecha{
+    max-width: 15%;
+    width: 15%;
+}
+
+#menu_izquierda{
+    max-width: 15%;
+    width: 15%;
+}
+
+#menu_central{
+    width: 70%;
+}
+
+#mapa_cCiudad{
+    width: 30vh;
+    height: 30vh;
+}
+
+.menus{
+    width:100%;
+    height: 47.5%;
+    border: double;
+
+}
+.menu{
+    width:100%;
+    height: 95%;
+    border: double;
+
+}
+.espacios{
+    height: 5%;
+}
+
+.menus:hover {
+    background-color: rgb(54, 58, 65);
+}
+
+.Titulo{
+    height: 45%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Botones{
+    height: 55%;
+}
+
+.etiquetah{
+    height: 100%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separador{
+    height:2%;
+    border: solid rgb(19, 16, 16);
+}
+
+.Boton{
+    border: solid rgb(0, 0, 0);
+}
+
+.Boton:hover {
+    background-color: rgb(108, 110, 114);
+}
+
+.tituloMenu{
+    height: 10%;
+}
+
+.BotonesNavegacion{
+    height: 7%;
+}
+
+.Seleccionado{
+    background-color: rgb(88, 88, 90);
+    border: solid rgb(0, 0, 0);
+}
+
+.Seleccionado:hover {
+    background-color: rgb(108, 110, 114);
+}
+
+.nombreCiudad{
+    width: 50%;
+}
+
+.botonImagen{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.espacio45{
+    height:20vh;
+}
+
+#select_editar{
+    height:10%;
+}
+
+.espacioFondo{
+    height: 35.3vh;
+}
+.espacioFondo2{
+    height: 41.6vh;
+}
+.espacioParaBoton{
+    height:8.4vh;
+}
+
+.Contenido{
+    height:83%;
+    background-color: rgb(40, 44, 52);
+}
+.espacioFormulario{
+    height: 1%;
+}
+
+.contenidoFormulario{
+    height: 9.5%;
+}
+.contenidoFormularioImagen{
+    height: 19%;
+}
+.espacioFormulario2{
+    height: 1%;
+    background-color: red;
+}
+
+.contenidoFormulario2{
+    height: 9.5%;
+    background-color: green;
+}
+
+.contenidoFormulario3{
+    height: 5.5%;
+}
+
+
+.espacioFormulario3{
+    height: 0.5%;
+}
+
+.contenidoFormularioMapa{
+    height: 31vh;
+}
+
+.RowBoton{
+    height: 100%;
+    width: 100%;
+}
+.ColBoton{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(108, 110, 114);
+    font-size: 20px;
+    font-weight: bold;
+    border: double;
+}
+
+.ColBoton:hover{
+    background-color: rgb(133, 134, 134);
+    border: solid;
+}
+
+.ColBoton2{
+    height: 7%;
+    width: 100%;
+    background-color: rgb(108, 110, 114);
+    font-size: 20px;
+    font-weight: bold;
+    border: double;
+}
+
+.ColBoton2:hover{
+    background-color: rgb(133, 134, 134);
+    border: solid;
+}
+
+
+.BotnContForm3{
+    height: 5.5%;
+    background-color: rgb(108, 110, 114);
+    font-size: 20px;
+    font-weight: bold;
+    border: double;
+}
+
+.BotnContForm3:hover{
+    background-color: rgb(133, 134, 134);
+    border: solid;
+}
+
+.contenidoFormularioMapaGrande{
+    height: 45vh;
+}
+
+.contenidoFormularioMapaGrande2{
+    height: 45vh;
+}
+
+.contenidoFormularioMapaPequeno{
+    height: 30vh;
+}
+

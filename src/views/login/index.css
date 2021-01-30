@@ -1,0 +1,28 @@
+#errores {
+    color: red;
+  }
+
+#nick{
+  margin:auto;
+}
+
+#nick2{
+  margin:auto;
+}
+
+#header{
+  height: 50%;
+  min-height: 50%;
+}
+
+#row{
+  height: 100%;
+}
+
+#espacio{
+  height: 10px;
+}
+
+.alerta{
+  height:10px;
+}
