@@ -11,9 +11,8 @@ export interface MapaVisualizarRutas { Center: LatLngExpression, Zoom: number, l
 const myIcon = L.icon({
     iconUrl: 'https://www.flaticon.com/svg/static/icons/svg/1673/1673221.svg',
     iconSize: [40, 40],
-    iconAnchor: [32, 64],
-    shadowAnchor: [4, 62],
-    popupAnchor: [12, -90]
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
 });
 var redIcon = new L.Icon({
     iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
